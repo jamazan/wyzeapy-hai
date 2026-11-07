@@ -15,6 +15,7 @@ from .services.bulb_service import BulbService
 from .services.camera_service import CameraService
 from .services.hms_service import HMSService
 from .services.lock_service import LockService
+from .services.scale_service import ScaleService
 from .services.sensor_service import SensorService
 from .services.switch_service import SwitchService, SwitchUsageService
 from .services.thermostat_service import ThermostatService
@@ -56,6 +57,7 @@ class Wyzeapy:
         self._irrigation_service = None
         self._air_purifier_service = None
         self._vacuum_service = None
+        self._scale_service = None
         self._wall_switch_service = None
         self._switch_usage_service = None
         self._email = None
@@ -471,6 +473,14 @@ class Wyzeapy:
         if self._vacuum_service is None:
             self._vacuum_service = VacuumService(self._auth_lib)
         return self._vacuum_service
+
+    @property
+    async def scale_service(self) -> ScaleService:
+        """Returns an instance of the scale service"""
+
+        if self._scale_service is None:
+            self._scale_service = ScaleService(self._auth_lib)
+        return self._scale_service
 
     @property
     async def wall_switch_service(self) -> WallSwitchService:
