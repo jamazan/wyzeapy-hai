@@ -4,13 +4,19 @@ SPDX-FileCopyrightText: 2021 Mulliken, LLC <katie@mulliken.net>
 SPDX-License-Identifier: GPL-3.0-only
 -->
 
-# Wyzeapy
+# Wyzeapy HAI
+
+A Python library for the (unofficial) Wyze Labs web APIs, maintained by [@jamazan](https://github.com/jamazan) as the
+backend for [Wyze HAI](https://github.com/jamazan/ha-wyze-hai). It started from
+[SecKatie/wyzeapy](https://github.com/SecKatie/wyzeapy) (GPL-3.0-only, based on upstream 0.8.1) and is now developed
+independently; history and original copyright notices are preserved. The Python package and import name are still
+`wyzeapy`.
 
 A Python library for the (unofficial) Wyze Labs web APIs.
 
 ## Used By
 
-This project is used by the [ha-wyzeapi](https://github.com/SecKatie/ha-wyzeapi) project.  Let me know if you are utilizing it so that I can feature your project here!
+This project is used by [Wyze HAI](https://github.com/jamazan/ha-wyze-hai).
 
 ## Usage/Examples
 
@@ -52,7 +58,7 @@ in the [Wyze developer console](https://developer-api-console.wyze.com/#/apikey/
 
 ## Author
 
-Developed by Katie Mulliken ([SecKatie](https://github.com/SecKatie))
+Originally developed by Katie Mulliken ([SecKatie](https://github.com/SecKatie)); now maintained by [@jamazan](https://github.com/jamazan).
 
 ## Appendix
 

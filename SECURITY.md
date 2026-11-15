@@ -18,7 +18,7 @@ We take the security of Wyzeapy seriously. If you believe you have found a secur
 
 Instead, please use one of the following methods:
 
-1. **GitHub Private Vulnerability Reporting (Preferred):** Use GitHub's [private vulnerability reporting feature](https://github.com/SecKatie/wyzeapy/security/advisories/new) to submit your report directly through the repository.
+1. **GitHub Private Vulnerability Reporting (Preferred):** Use GitHub's [private vulnerability reporting feature](https://github.com/jamazan/wyzeapy-hai/security/advisories/new) to submit your report directly through the repository.
 
 2. **Email:** Send an email to [katie@mulliken.net](mailto:katie@mulliken.net) with the subject line "Wyzeapy Security Vulnerability Report".
 
@@ -76,4 +76,4 @@ When using Wyzeapy:
 
 For security-related inquiries, contact: [katie@mulliken.net](mailto:katie@mulliken.net)
 
-For general questions and non-security issues, please use [GitHub Issues](https://github.com/SecKatie/wyzeapy/issues).
+For general questions and non-security issues, please use [GitHub Issues](https://github.com/jamazan/wyzeapy-hai/issues).
